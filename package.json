@@ -1,0 +1,16 @@
+{
+  "name": "emulation-push-notification",
+  "version": "1.0.0",
+  "description": "push notif",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "watch": "webpack --config webpack.common.js --watch"
+  },
+  "author": "james",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^15.0.0",
+    "mysql": "^2.18.1"
+  }
+}
